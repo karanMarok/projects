@@ -76,7 +76,7 @@ const Hooks = () => {
                     <p className="cardEventTitle">UseEffect Hook</p>
                     <div className="row">
                         <div>
-                        <p className="col-12 text-center">Product Id (Between 1 and 100): </p>
+                        <h6 className="col-12 text-center mt-3">Product Id (Between 1 and 100): </h6>
                         </div>
                        
                        <div className="d-flex justify-content-center">
