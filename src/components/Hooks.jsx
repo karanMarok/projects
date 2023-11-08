@@ -84,10 +84,10 @@ const Hooks = () => {
                        </div>
                         
                         <div className='productDetails'>
-                            <h6>Product ID: {product?.id}</h6>
-                            <h6>Product Title: {product?.title}</h6>
-                            <h6>Product Description: {product?.description}</h6>
-                            <h6>Product Price: {product?.price}</h6>
+                            <h6 className="products">Product ID: {product?.id}</h6>
+                            <h6 className="products">Product Title: {product?.title}</h6>
+                            <h6 className="products">Product Description: {product?.description}</h6>
+                            <h6 className="products">Product Price: {product?.price}</h6>
                         </div>
                     </div>
                 </div>
