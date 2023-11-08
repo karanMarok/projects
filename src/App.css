@@ -95,3 +95,28 @@
     font-size: 14px;
     padding: 20px 0 0 20px;
 }
+
+.buyButtons {
+    display: flex;
+    justify-content: around;
+}
+
+.buyButton {
+    width: 2.5rem;
+    border: none;
+    background-color: #816843;
+    color: white;
+}
+
+.cardEventHead {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2rem;
+}
+
+.productDetails {
+    margin: 3rem 0 0 2rem;
+    width: 90%;
+}

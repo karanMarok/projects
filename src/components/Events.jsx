@@ -1,7 +1,6 @@
 import React, { useRef, useState } from 'react'
 
 const Events = () => {
-
     const [count, setCount] = useState(1);
     const [input, setInput] = useState("");
     const [right, setRight] = useState("");
@@ -95,7 +94,7 @@ const Events = () => {
                     <div className="card">
                         <p className="cardEventTitle">Right Click Event</p>
                         <div className="rightbutton d-flex justify-content-center">
-                            <button className="cardEventButton3" onFocus={(e) => { handleRightClick(e) }}>Right Click</button>
+                            <button className="cardEventButton3" onFocus={(e) => {handleRightClick(e)}}>Right Click</button>
                         </div>
                         <p className="cardEventResult">{right}</p>
                     </div>
