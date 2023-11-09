@@ -79,11 +79,11 @@ const Navbar = () => {
                                 }}>Movies API</MenuItem>
                         </Menu>
 
-                        <button className="navButton">REDUX DATA FLOW</button>
+                        <Link to="/redux"><button className="navButton">REDUX DATA FLOW</button></Link>
                         <Link to="/hooks"><button className="navButton">ALL HOOKS</button></Link>
                     </div>
                     <div className="col-2 d-flex justify-content-end">
-                        <button className="navSign">Sign In</button>
+                    <button className="navSign">Sign In</button>
                     </div>
                 </div>
             </div>
